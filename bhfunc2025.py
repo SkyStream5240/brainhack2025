@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+
 '''
 extract_ts: a function that extracts timestamps of certain events
 beh_df: a dataframe of the behavioral data
