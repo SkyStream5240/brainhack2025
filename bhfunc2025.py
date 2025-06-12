@@ -14,7 +14,7 @@ def extract_ts(beh_df, col_name, num=True):
         for i in range(beh_df.shape[0]):
             if beh_df.trialCount[i]!= 0 :
                 t = beh_df[col_name][i]
-                onset_timing.append(int(round(t)) // 2)
+                onset_timing.append(int(round(t)) // 2+1)
     else:
         for i in range(beh_df.shape[0]):
             if beh_df.trialCount[i]!= 0 :
